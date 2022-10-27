@@ -13,7 +13,7 @@ public class myHashMap {
 	    }
 	    
 	    public void put(int key, int value) {
-	        //Set _v key and value  
+	        //Set _v key and value   
 	        _v[key] = value;
 	    }
 	    
