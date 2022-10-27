@@ -4,16 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class myHashSet {
-	//Set the percent to divide by
-	private int numBuckets = 15000;
-	//Create the List
-    List<Integer>[] buckets;
-    
-    //Hash the key using the numbuckets
-    private int hash_function(int key){
-        return key % numBuckets;
-    }
-    
+c
     //set buckets to like list with index of numbuckets
     public void MyHashSet() {
        buckets = new LinkedList[numBuckets];
