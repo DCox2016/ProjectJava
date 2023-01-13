@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class myHashSet {
-c
     //set buckets to like list with index of numbuckets
     public void MyHashSet() {
        buckets = new LinkedList[numBuckets];
